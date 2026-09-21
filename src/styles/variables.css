@@ -1,0 +1,38 @@
+:root {
+  /* Color Palette */
+  --primary-color: #243f03;
+  --primary-light: #325902;
+  --secondary-color: #85b52b;
+  --accent-gold: #b68a53;
+  --accent-red: #7f1b26;
+  --brand-purple: #35004d;
+
+  /* Backgrounds */
+  --bg-cream: #fff7db;
+  --bg-dark-green: #243f03;
+  --bg-light-warm: #ece8da;
+  --bg-card: #f5f2ec;
+  --bg-white: #ffffff;
+
+  /* Typography */
+  --font-marck: "Marck Script", cursive;
+  --font-marcellus: "Marcellus", serif;
+  --font-mate: "Mate", serif;
+  --font-marko: "Marko One", sans-serif;
+  --font-sail: "Sail", cursive;
+  --font-rasa: "Rasa", serif;
+  --font-manrope: "Manrope", sans-serif;
+  --font-flamenco: "Flamenco", cursive;
+  --font-fjalla: "Fjalla One", sans-serif;
+  --font-merriweather: "Merriweather", serif;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 10px 2px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.35);
+
+  /* Borders */
+  --border-light: #e2e8f0;
+  --border-gold: #b68a53;
+  --border-green: #243f03;
+}

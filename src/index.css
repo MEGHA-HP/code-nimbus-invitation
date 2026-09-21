@@ -1,0 +1,44 @@
+@import "./styles/variables.css";
+@import "./styles/hou001.css";
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-marcellus), sans-serif;
+  background-color: var(--bg-cream);
+  color: var(--primary-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.nimbus-container {
+  max-width: 128rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 50%;
+  }
+  .nimbus-container {
+    padding: 0 1.6rem;
+  }
+}
